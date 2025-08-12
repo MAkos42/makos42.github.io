@@ -1,7 +1,7 @@
 /**
  * @name ReZero
  * @author SpoopyMcSpook
- * @version 4.3.1
+ * @version 4.3.2
  * @description A purple ReZero Emilia theme reworked by your's truly.
 */
 
@@ -211,6 +211,10 @@ body > div:not([class]):last-of-type {
     width: 5px;
 }
 
+.align-chat-input .scroller__36d07::-webkit-scrollbar-track{
+    margin-bottom: 8px;
+}
+
 .thin__99f8c::-webkit-scrollbar {
     width: 4px;
     background: none;
@@ -226,7 +230,7 @@ body > div:not([class]):last-of-type {
 }
 
 
-.messagesWrapper__36d07{
+.scroller__36d07{
 mask:linear-gradient(black 0%, black calc(100% - 8px), #00000000 100%) !important;
 }
 
