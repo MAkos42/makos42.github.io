@@ -1,8 +1,8 @@
 /**
  * @name ReZero
  * @author SpoopyMcSpook
- * @version 4.3.2
- * @description A purple ReZero Emilia theme reworked by your's truly.
+ * @version 4.3.3
+ * @description A purple ReZero Emilia theme reworked by your's truly. v4.3.3
 */
 
 /*Main body*/
@@ -142,7 +142,7 @@ body > div:not([class]):last-of-type {
 }
 
 /*unread server message button*/
-.align-chat-input .unreadMentionsFixedFooter_ef3116, .align-chat-input .unreadMentionsIndicatorBottom_ef3116{
+.unreadMentionsFixedFooter_ef3116, .unreadMentionsIndicatorBottom_ef3116{
     bottom: calc(var(--custom-app-panels-height, 0) + 20px);
 }
 
@@ -211,7 +211,7 @@ body > div:not([class]):last-of-type {
     width: 5px;
 }
 
-.align-chat-input .scroller__36d07::-webkit-scrollbar-track{
+.scroller__36d07::-webkit-scrollbar-track{
     margin-bottom: 8px;
 }
 
@@ -245,12 +245,12 @@ mask:linear-gradient(black 0%, black calc(100% - 8px), #00000000 100%) !importan
 }
 
 /*message container*/
-.align-chat-input .container_c48ade{
+.container_c48ade{
 --custom-chat-input-margin-bottom: 12px;
 }
 
 /*xxx is typing bar*/
-.align-chat-input .inTextChannel_b88801.base_b88801{
+.inTextChannel_b88801.base_b88801{
     top: -4px;
     bottom: auto;
     position: relative;
@@ -268,11 +268,11 @@ mask:linear-gradient(black 0%, black calc(100% - 8px), #00000000 100%) !importan
  background: none;
 }
 
-.align-chat-input .form_f75fb0 div:first-child{
+.form_f75fb0 div:first-child{
     order: 2;
 }
 
-.align-chat-input .form_f75fb0 div div{
+.form_f75fb0 div div{
     order: initial !important;
 }
 
@@ -282,7 +282,7 @@ mask:linear-gradient(black 0%, black calc(100% - 8px), #00000000 100%) !importan
     background: linear-gradient(90deg,rgba(41, 137, 216, 0.15),rgba(91, 187, 255, 0.15),rgba(41, 137, 216, 0.15));
 }
 
-.align-chat-input .scrollerSpacer__36d07 {
+.scrollerSpacer__36d07 {
     height: 12px;
 }
 
