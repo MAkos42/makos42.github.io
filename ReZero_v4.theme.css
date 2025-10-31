@@ -1,8 +1,8 @@
 /**
  * @name ReZero
  * @author SpoopyMcSpook
- * @version 4.3.3
- * @description A purple ReZero Emilia theme reworked by your's truly. v4.3.3
+ * @version 4.3.4
+ * @description A purple ReZero Emilia theme reworked by your's truly. v4.3.4
 */
 
 /*Main body*/
@@ -152,7 +152,7 @@ body > div:not([class]):last-of-type {
 }
 
 /*server channel list*/
-.visual-refresh .sidebarList_c48ade {
+.sidebarList__5e434 {
     background: var(--bg-overlay-2);
     border-radius: 0px !important;
     border: none !important;
