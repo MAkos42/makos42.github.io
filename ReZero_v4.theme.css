@@ -1,8 +1,8 @@
 /**
  * @name ReZero
  * @author SpoopyMcSpook
- * @version 4.4.1
- * @description A purple ReZero Emilia theme reworked by your's truly. v4.4.1
+ * @version 4.4.3
+ * @description A purple ReZero Emilia theme reworked by your's truly. v4.4.3
 */
 
 /*Main body*/
@@ -149,9 +149,6 @@ body>div:not([class]):last-of-type {
     display: none;
 }
 
-
-
-
 /*Discord title bar ( _ X)*/
 .c38106a3f0c3ca76-title {
     background: var(--background-primary);
@@ -227,7 +224,7 @@ section[aria-label="Channel header"] {
 }
 
 /*user activity*/
-.visual-refresh .panel__5dec7 {
+._5e434347c823b592-activityPanel {
     background: initial;
 }
 
@@ -281,7 +278,7 @@ section[aria-label="Channel header"] {
 
 /*xxx is typing bar*/
 .b8880176888cc928-inTextChannel.b8880176888cc928-base {
-    top: -6px;
+    top: -12px;
     bottom: auto;
 }
 
@@ -326,6 +323,10 @@ section[aria-label="Channel header"] {
 ._841c8f861f7b2704-threadSuggestionBar {
     background: linear-gradient(90deg, rgba(41, 137, 216, 0.15), rgba(91, 187, 255, 0.15), rgba(41, 137, 216, 0.15));
     border: none;
+}
+
+._841c8f861f7b2704-clipContainer {
+    padding: 0;
 }
 
 ._36d072eab2b2e737-scrollerSpacer {
