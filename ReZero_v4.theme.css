@@ -1,8 +1,8 @@
 /**
  * @name ReZero
  * @author SpoopyMcSpook
- * @version 4.4.3
- * @description A purple ReZero Emilia theme reworked by your's truly. v4.4.3
+ * @version 4.4.4
+ * @description A purple ReZero Emilia theme reworked by your's truly. v4.4.4
 */
 
 /*Main body*/
@@ -51,6 +51,9 @@ body>div:not([class]):last-of-type {
     --activity-card-background: #322a58;
     /*header bar*/
     --background-gradient-lower: #322a5899;
+
+    /*friends button active*/
+    --background-mod-strong: #2989D899;
 
 
 }
@@ -123,6 +126,7 @@ body>div:not([class]):last-of-type {
     /*mark as read button*/
     --control-secondary-background-default: #2989D866;
     --control-secondary-background-hover: #2989D899;
+
 }
 
 
@@ -340,15 +344,23 @@ section[aria-label="Channel header"] {
 
 
 /* Channel Select */
-.c69b6db0641110f6-containerDefault:hover a {
+._2ea32c412048f708-link:hover,
+/*DM Select*/
+._972a0d22c8afa7f0-interactive:hover,
+/*Voicechat users*/
+._07f9193042954787-voiceUser:hover ._07f9193042954787-content {
     background: linear-gradient(90deg, rgba(91, 187, 255, 0.6), rgba(91, 187, 255, 0)) !important;
 }
 
-.c69b6db0641110f6-containerDefault.c69b6db0641110f6-selected:hover a {
+._2ea32c412048f708-modeSelected:hover ._2ea32c412048f708-link,
+._972a0d22c8afa7f0-interactiveSelected:hover,
+._07f9193042954787-voiceUser._07f9193042954787-selected:hover ._07f9193042954787-content {
     background: linear-gradient(90deg, rgba(91, 187, 255, 0.6), rgba(41, 137, 216, 0.4)) !important;
 }
 
-.c69b6db0641110f6-containerDefault.c69b6db0641110f6-selected a {
+._2ea32c412048f708-modeSelected ._2ea32c412048f708-link,
+._972a0d22c8afa7f0-interactiveSelected,
+._07f9193042954787-selected ._07f9193042954787-content {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(41, 137, 216, 0.4)) !important;
 }
 
