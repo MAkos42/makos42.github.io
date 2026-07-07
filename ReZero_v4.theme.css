@@ -1,8 +1,8 @@
 /**
  * @name ReZero
  * @author SpoopyMcSpook
- * @version 4.5.1
- * @description A purple ReZero Emilia theme reworked by your's truly. v4.5.1
+ * @version 4.5.2
+ * @description A purple ReZero Emilia theme reworked by your's truly. v4.5.2
 */
 
 /*Main body*/
@@ -118,7 +118,7 @@ body>div:not([class]):last-of-type {
     --background-mentioned-hover: none;
     --background-message-hover: none;
     --background-surface-high: #2989D833;
-    --background-surface-higher: #2989D899;
+    --background-surface-higher: #322a58ee;
     --activity-card-background: #322a58;
     --deprecated-panel-background: #322a5866;
     --channeltextarea-background: #322a58aa;
